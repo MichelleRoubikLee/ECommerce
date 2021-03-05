@@ -1,9 +1,14 @@
-function App() {
-  return (
-    <div className="App">
+import React from 'react';
 
-    </div>
-  );
+function App() {
+	return (
+		<Provider store={store}>
+			<div className="App">
+
+			</div>
+		</Provider>
+		
+	);
 }
 
 export default App;
